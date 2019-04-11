@@ -18,11 +18,40 @@ public class SerialLauncher {
 		String fileName = "src/serializedAssociates.txt";
 		
 		List<Associate> aList = new ArrayList<Associate>();
+
+		aList.add(new Associate("Howard Dennis", "Lackey", -1, "Ribeye", "NoneYa"));
+
+
+		aList.add(new Associate("Peterson Etienne", "Dev", 28, "Chicken", "258-695-9658"));
+
+		
 		aList.add(new Associate("Alec Batson", "Trainer/Tech Analyst", 25, "Cheese", "012-34-5678"));
+		aList.add(new Associate("Tom Kirby", "Coolest trainee", 22, "Pizza", "012-34-5678"));
+
+		aList.add(new Associate("Teli Natsis", "Tech Student", 44, "Pizza", "555-33-2531"));
+
+
+		aList.add(new Associate("Chris Copeland","Revature Associate",22,"CheeseBurger","666-22-4488"));
+
 		aList.add(new Associate("Devin Stuart", "Trainee", 22, "Pasta With Alfredo", "555-55-5555"));
 		aList.add(new Associate("Xavier Laverde", "Software Dev", 33, "Chicken Parm", "112-34-5678"));
+
 		aList.add(new Associate("Serge Armand", "Software Dev", 64, "Buffalo wing", "112-34-5678"));
 		
+
+		aList.add(new Associate("Billy Joel Armstrong", "A ddev", 33, "Chicken Parm", "112-34-5678"));
+
+		serializeToFile(fileName, aList);
+		
+		aList.add(new Associate("Breeanna Lane", "IT ", 20, "Leaning Tower of Cheese Pizza", "018-778-9990"));
+
+		
+		
+		
+		serializeToFile(fileName, aList);
+		
+		aList.add(new Associate("Peterson Etienne", "Dev ", 28, "Chicken", "018-758-6890"));
+
 		serializeToFile(fileName, aList);
 		
 		System.out.println(deserializeFromFile(fileName));
