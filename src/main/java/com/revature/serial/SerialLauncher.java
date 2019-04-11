@@ -31,18 +31,8 @@ public class SerialLauncher {
 		aList.add(new Associate("Xavier Laverde", "Software Dev", 33, "Chicken Parm", "112-34-5678"));
 		aList.add(new Associate("Billy Joel Armstrong", "A ddev", 33, "Chicken Parm", "112-34-5678"));
 		aList.add(new Associate("Breeanna Lane", "IT ", 20, "Leaning Tower of Cheese Pizza", "018-778-9990"));
-		serializeToFile(fileName, aList);
-		
-		
-
-		
-		
-		
-		serializeToFile(fileName, aList);
-		
 		aList.add(new Associate("Peterson Etienne", "Dev ", 28, "Chicken", "018-758-6890"));
 		serializeToFile(fileName, aList);
-		
 		System.out.println(deserializeFromFile(fileName));
 		
 		
