@@ -19,10 +19,16 @@ public class SerialLauncher {
 		
 		List<Associate> aList = new ArrayList<Associate>();
 		aList.add(new Associate("Alec Batson", "Trainer/Tech Analyst", 25, "Cheese", "012-34-5678"));
+<<<<<<< HEAD
 		aList.add(new Associate("Jeffrey Zarate", "Trainee", 23, "Curry", "007-18-1738"));
+=======
+		aList.add(new Associate("Devin Stuart", "Trainee", 22, "Pasta With Alfredo", "555-55-5555"));
+		aList.add(new Associate("Xavier Laverde", "Software Dev", 33, "Chicken Parm", "112-34-5678"));
+>>>>>>> 22b5094328c4961859a454171573545aefd8a728
 		serializeToFile(fileName, aList);
 		
 		System.out.println(deserializeFromFile(fileName));
+		
 		
 	}
 	
