@@ -22,7 +22,7 @@ public class SerialLauncher {
 		aList.add(new Associate("Howard Dennis", "Lackey", -1, "Ribeye", "NoneYa"));
 
 
-		aList.add(new Associate("Howard Dennis", "Lackey", -1, "Ribeye", "NoneYa"));
+		aList.add(new Associate("Peterson Etienne", "Dev", 28, "Chicken", "258-695-9658"));
 
 		
 		aList.add(new Associate("Alec Batson", "Trainer/Tech Analyst", 25, "Cheese", "012-34-5678"));
