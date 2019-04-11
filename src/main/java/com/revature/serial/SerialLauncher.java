@@ -21,6 +21,9 @@ public class SerialLauncher {
 		aList.add(new Associate("Alec Batson", "Trainer/Tech Analyst", 25, "Cheese", "012-34-5678"));
 		serializeToFile(fileName, aList);
 		
+		aList.add(new Associate("Breeanna Lane", "IT ", 20, "Leaning Tower of Cheese Pizza", "018-778-9990"));
+		serializeToFile(fileName, aList);
+		
 		System.out.println(deserializeFromFile(fileName));
 		
 	}
