@@ -33,10 +33,9 @@ public class SerialLauncher {
 		aList.add(new Associate("Devin Stuart", "Trainee", 22, "Pasta With Alfredo", "555-55-5555"));
 		aList.add(new Associate("Xavier Laverde", "Software Dev", 33, "Chicken Parm", "112-34-5678"));
 		aList.add(new Associate("Serge Armand", "Software Dev", 64, "Buffalo wing", "112-34-5678"));
-		aList.add(new Associate("Billy Joel Armstrong", "A ddev", 33, "Chicken Parm", "112-34-5678"));
+		aList.add(new Associate("Anikin Skywalker", "Sith Lord", Integer.MAX_VALUE, "Sand", "666-66-6666"));
 		aList.add(new Associate("Breeanna Lane", "IT ", 20, "Leaning Tower of Cheese Pizza", "018-778-9990"));
 		aList.add(new Associate("Erwin Garces","Trainee", 28,"pizza","58-24-5684"));
-		aList.add(new Associate("Chris Copeland","Revature Associate",22,"CheeseBurger","666-22-4488"));
 		aList.add(new Associate("Olanrewaju Olatujoye", "Dev", 28, "Chicken", "543-76-87654"));
 		aList.add(new Associate("Dwight Brown", "Trainee ", 24, "Jamaican Jerk Fish", "987-65-4321"));
 		aList.add(new Associate("Amna Azmi", "Student", 23, "Wings", "012-34-5678"));
