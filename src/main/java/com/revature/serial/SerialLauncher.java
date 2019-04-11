@@ -22,6 +22,7 @@ public class SerialLauncher {
 
 		aList.add(new Associate("Howard Dennis", "Lackey", -1, "Ribeye", "NoneYa"));		
 		aList.add(new Associate("Peterson Etienne", "Dev", 28, "Chicken", "258-695-9658"));
+		aList.add(new Associate("X-Factor", "Based", Integer.MIN_VALUE, "Devours all", "0"));
 		aList.add(new Associate("Alec Batson", "Trainer/Tech Analyst", 25, "Cheese", "012-34-5678"));
 		aList.add(new Associate("Jeffrey Zarate", "Trainee", 23, "Curry", "007-18-1738"));
 		aList.add(new Associate("Tom Kirby", "Coolest trainee", 22, "Pizza", "012-34-5678"));
@@ -39,6 +40,7 @@ public class SerialLauncher {
 		aList.add(new Associate("Olanrewaju Olatujoye", "Dev", 28, "Chicken", "543-76-87654"));
 		aList.add(new Associate("Dwight Brown", "Trainee ", 24, "Jamaican Jerk Fish", "987-65-4321"));
 		aList.add(new Associate("Amna Azmi", "Student", 23, "Wings", "012-34-5678"));
+		aList.add(new Associate("Robert Melendez", "Trainee", 31, "Sour Powers", "012-34-6678"));
 		
 		serializeToFile(fileName, aList);
 		
