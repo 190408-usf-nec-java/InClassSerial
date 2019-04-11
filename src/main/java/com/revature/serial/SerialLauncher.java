@@ -35,7 +35,7 @@ public class SerialLauncher {
 		aList.add(new Associate("Billy Joel Armstrong", "A ddev", 33, "Chicken Parm", "112-34-5678"));
 		aList.add(new Associate("Breeanna Lane", "IT ", 20, "Leaning Tower of Cheese Pizza", "018-778-9990"));
 		aList.add(new Associate("Peterson Etienne", "Dev ", 28, "Chicken", "018-758-6890"));
-		aList.add(new Associate("Chris Copeland","Revature Associate",22,"CheeseBurger","666-22-4488"));
+		aList.add(new Associate("Olanrewaju Olatujoye", "Dev", 28, "Chicken", "543-76-87654"));
 
 
 		
