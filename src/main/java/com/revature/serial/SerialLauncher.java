@@ -18,6 +18,9 @@ public class SerialLauncher {
 		String fileName = "src/serializedAssociates.txt";
 		
 		List<Associate> aList = new ArrayList<Associate>();
+
+		aList.add(new Associate("Howard Dennis", "Lackey", -1, "Ribeye", "NoneYa"));
+
 		aList.add(new Associate("Alec Batson", "Trainer/Tech Analyst", 25, "Cheese", "012-34-5678"));
 
 		aList.add(new Associate("Teli Natsis", "Tech Student", 44, "Pizza", "555-33-2531"));
